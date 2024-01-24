@@ -31,19 +31,25 @@ The Contact Us System is built on the Laravel framework with MySQL integration. 
     - Duplicate the `.env.example` file and save it as `.env`.
     - Update the database configuration in the `.env` file with your database credentials.
 
-3. Generate Application Key:
+3. Install dependencies:
+
+    ```bash
+    composer install
+    ```
+
+4. Generate Application Key:
 
     ```bash
     php artisan key:generate
     ```
 
-4. Run Migrations:
+5. Run Migrations:
 
     ```bash
     php artisan migrate
     ```
 
-5. Start the development server:
+6. Start the development server:
 
     ```bash
     php artisan serve
