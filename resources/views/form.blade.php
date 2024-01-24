@@ -72,7 +72,7 @@
                     $("#response").html('<div class="alert alert-danger text-center">Error submitting form.</div>');
                 }
             } finally {
-                $('#submitBtn').prop('disabled', false);
+                $('#sendMessage').prop('disabled', false);
             }
         }
     </script>
