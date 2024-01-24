@@ -40,6 +40,4 @@
             <div class="display-5 text-center m-5 p-5">No messages found.</div>
         @endif
     </div>
-
-    <script></script>
 @endsection
